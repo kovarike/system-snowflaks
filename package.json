@@ -1,0 +1,26 @@
+{
+  "name": "snowflaks",
+  "version": "1.0.0",
+  "description": "Projeto exemplo utilizando TypeScript e Node.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/main.js",               
+    "build": "tsc",                            
+    "dev": "ts-node src/main.ts",              
+    "watch": "tsc -w",                          
+    "lint": "eslint . --ext .ts",            
+    "start:dev": "nodemon --watch src -e ts --exec ts-node src/main.ts" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "eslint": "^9.8.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
