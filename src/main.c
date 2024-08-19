@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdint.h>
-#include "uuid/uuid.h"
-#include "ip/ip.h"
-#include "crypto/crypto.h"
+#include "fs/uuid/uuid.h"
+#include "fs/ip/ip.h"
+#include "fs/crypto/crypto.h"
 
 int main() {
     uint64_t uuid = generate_uuid(1, 1);

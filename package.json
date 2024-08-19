@@ -9,7 +9,8 @@
     "dev": "ts-node src/main.ts",              
     "watch": "tsc -w",                          
     "lint": "eslint . --ext .ts",            
-    "start:dev": "nodemon --watch src -e ts --exec ts-node src/main.ts" 
+    "start:dev": "nodemon --watch src -e ts --exec ts-node src/main.ts" ,
+    "th": "thrift --gen cpp mtx-client.thrift src/fs/service/client"
   },
   "keywords": [],
   "author": "",

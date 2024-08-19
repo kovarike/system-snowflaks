@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",          // Inclui todos os arquivos no diretório do projeto
+                "/usr/include",                   // Diretórios padrão do sistema
+                "/usr/local/include",             // Diretórios de bibliotecas locais
+                "/usr/include/thrift",
+                // "usr/include/thrift/transport",
+                "/usr/include/boost",            // Diretório para cabeçalhos do Thrift
+                "/usr/include/c++/13",            // Ajuste para a versão correta do C++
+                "/usr/include/x86_64-linux-gnu/c++/13" // Ajuste para a arquitetura específica
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++-13",     // Caminho do compilador C++
+            "cStandard": "c11",                       // Versão do C
+            "cppStandard": "c++14",                   // Versão do C++
+            "intelliSenseMode": "linux-gcc-x64"       // Modo de IntelliSense
+        }
+    ],
+    "version": 4
+}
